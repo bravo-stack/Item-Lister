@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+body {
+    font: 13px/1.5 arial, sans-serif;
+    overflow: scroll;
+}
+
+#main-header {
+    background-color: rgb(107, 17, 92);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+#header-title {
+    color: white;
+    margin-left: 10px;
+}
+
+.search-cont {
+    margin-right: 10px;
+}
+
+input[type="search"] {
+    border-color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 30px;
+}
+
+#main {
+    border: 2px solid #ddd;
+    width: 100%;
+    padding: 1.5em;
+    background-color: white;
+    border-radius: 2em;
+    margin-top: 10px;
+}
+
+.title {
+    font-size: large;
+    font-weight: 550;
+    margin-left: 0.5em;
+}
+
+.form-inline {
+    display: flex;
+    margin-bottom: 2em;
+}
+
+.form-control {
+    border: 2px solid #ccc;
+    height: 2.8em;
+    padding: 0.8em;
+    color: #333;
+    border-radius: 1.5em;
+    margin-right: 0.3em;
+}
+
+.btn {
+    border: 1px solid #333;
+    background-color: #333;
+    color: white;
+    height: 2.8em;
+    padding: 0.2em 1.2em;
+    font-size: small;
+    border-radius: 1.5em;
+    transition: transform 0.4s ease-in-out;
+}
+
+.btn:hover {
+    background-color: #555;
+    border-color: #555;
+    transform: scale(1.1);
+}
+
+#items {
+    list-style-type: none;
+}
+
+.list-group-item {
+    padding: 1em;
+    border: 2px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 1.5em;
+}
+
+.list-group-item:first-child {
+    margin-top: 0.6em;
+}
+
+.list-group-item:not(:first-child) {
+    margin-top: 7px;
+}
+
+.delete-btn {
+    border: rgb(245, 46, 46) solid 1px;
+    background-color: rgb(245, 46, 46);
+    color: white;
+    height: 2.1em;
+    width: 2.1em;
+    border-radius: 50%;
+}
+
+.delete-btn:hover {
+    background-color: darkred;
+    border-color: darkred;
+}
