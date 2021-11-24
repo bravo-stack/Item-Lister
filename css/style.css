@@ -39,13 +39,13 @@ input[type="search"] {
 }
 
 #main {
-    border: 2px solid #eee;
+    border: 2px solid #ddd;
     width: 100%;
     padding: 1.5em;
     background-color: white;
     border-radius: 2em;
     margin-top: 10px;
-    box-shadow: 2px 5px 8px #ddd;
+    box-shadow: 2px 5px 8px #ccc;
 }
 
 .title {
@@ -89,12 +89,12 @@ input[type="search"] {
 
 .list-group-item {
     padding: 1em;
-    border: 2px solid #eee;
+    border: 2px solid #ddd;
     display: flex;
     align-items: center;
     justify-content: space-between;
     border-radius: 1.9em;
-    box-shadow: 2px 2px 5px #ddd;
+    /* box-shadow: 2px 2px 5px #ddd; */
 }
 
 .list-group-item:first-child {
