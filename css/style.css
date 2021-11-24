@@ -11,7 +11,7 @@ body {
 }
 
 #main-header {
-    background-color: rgb(107, 17, 92);
+    background-color: rgb(255, 69, 0);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -68,8 +68,8 @@ input[type="search"] {
 }
 
 .btn {
-    border: 1px solid #333;
-    background-color: #333;
+    border: 1px solid #ff4500;
+    background-color: #ff4500;
     color: white;
     height: 2.8em;
     padding: 0.2em 1.2em;
@@ -79,8 +79,6 @@ input[type="search"] {
 }
 
 .btn:hover {
-    background-color: #555;
-    border-color: #555;
     transform: scale(1.1);
 }
 
@@ -94,7 +92,8 @@ input[type="search"] {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-radius: 1.5em;
+    border-radius: 1.9em;
+    box-shadow: 3px 3px 5px #ddd;
 }
 
 .list-group-item:first-child {
