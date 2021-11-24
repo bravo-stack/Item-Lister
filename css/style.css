@@ -101,14 +101,7 @@ input[type="search"] {
     align-items: center;
     justify-content: space-between;
     border-radius: 1.9em;
-}
-
-.list-group-item:first-child {
     margin-top: 0.6em;
-}
-
-.list-group-item:not(:first-child) {
-    margin-top: 7px;
 }
 
 .delete-btn {
