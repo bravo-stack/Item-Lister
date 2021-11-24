@@ -57,3 +57,30 @@ item.addEventListener("click", (e) => {
         e.target.parentElement.remove()
     }
 })
+
+// Filter Event
+filter.addEventListener("keyup", (e) => {
+
+    // get filter/search text, convert to lowercase
+    const filterText = e.target.value.toLowerCase()
+
+    // get all List items
+    const listItems = item.querySelectorAll("li")
+
+    // iterate through the list items
+    listItems.forEach((item) => {
+
+        // get the list item first child's textContent, then convert to lowercase
+        const itemName = item.firstChild.textContent.toLowerCase()
+
+        // check if the list item, first child's text content contains, the filtered/searched text
+        if(itemName.includes(filterText)) {
+            // set display to flex, if it does
+            item.style.display = "flex"
+        } else {
+            // else, set display to flex
+            item.style.display = "none"
+        }
+    })
+})
+
