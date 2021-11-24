@@ -21,6 +21,9 @@ form.addEventListener("submit", (e) => {
         // grab the h2 title above our input, and display a warning message there
         const warnText = document.querySelector("#main > .title")
         const initContent = warnText.textContent;
+
+        // Add transition to the warnText
+        warnText.style.transition = "all 0.5s ease-in-out"
         
         // add a class, that changes the text color
         warnText.classList.add("warn-text")
@@ -32,7 +35,7 @@ form.addEventListener("submit", (e) => {
         setTimeout(() => {
             warnText.classList.remove("warn-text")
             warnText.textContent = initContent
-        }, 3000);
+        }, 2400);
 
     } else {
 
