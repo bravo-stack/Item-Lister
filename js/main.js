@@ -84,3 +84,17 @@ filter.addEventListener("keyup", (e) => {
     })
 })
 
+// Input field, focus event
+form.firstElementChild.addEventListener("focus", (e) => {
+    
+    // reset the filter text value to 'empty'
+    filter.value = ""
+
+    // set all list item's display to flex
+    const listItems = item.querySelectorAll("li")
+
+    // loop through the list items, to revert the 'display' styles
+    listItems.forEach((i) => {
+        i.style.display = "flex"
+    })
+})
