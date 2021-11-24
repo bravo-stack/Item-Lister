@@ -62,8 +62,7 @@ input[type="search"] {
 
 .form-inline {
     display: flex;
-    margin-bottom: 2em;
-    margin-top: 13px;
+    margin: 13px 0 2em 0;
 }
 
 .form-control {
