@@ -11,7 +11,7 @@ body {
 }
 
 #main-header {
-    background-color: rgb(255, 69, 0);
+    background-color: goldenrod;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -54,9 +54,16 @@ input[type="search"] {
     margin-left: 0.5em;
 }
 
+.warn-text {
+    color: red;
+    font-size: 20px;
+    margin: 10px;
+}
+
 .form-inline {
     display: flex;
     margin-bottom: 2em;
+    margin-top: 13px;
 }
 
 .form-control {
@@ -69,8 +76,8 @@ input[type="search"] {
 }
 
 .btn {
-    border: 1px solid #ff4500;
-    background-color: #ff4500;
+    border: 1px solid goldenrod;
+    background-color: goldenrod;
     color: white;
     height: 2.8em;
     padding: 0.2em 1.2em;
