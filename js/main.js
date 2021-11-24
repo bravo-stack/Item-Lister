@@ -50,3 +50,10 @@ form.addEventListener("submit", (e) => {
         input.value = ""
     }
 })
+
+// Delete button event
+item.addEventListener("click", (e) => {
+    if(e.target.classList.contains("delete-btn")) {
+        e.target.parentElement.remove()
+    }
+})
