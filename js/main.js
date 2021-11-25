@@ -110,10 +110,10 @@ filter.addEventListener("keyup", (e) => {
 // And restore the display value of our list items
 form.firstElementChild.addEventListener("focus", (e) => {
     
-    // reset the filter text value to 'empty'
+    // reset the search box's value to ""
     filter.value = ""
 
-    // set all list item's display to flex
+    // set our list item's display to flex
     const listItems = item.querySelectorAll("li")
 
     // loop through the list items, to revert the 'display' styles
