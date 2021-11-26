@@ -106,7 +106,7 @@ filter.addEventListener("keyup", (e) => {
 
 // Input field, focus event
 // whenever the user focuses on the input field
-// We reset the search box,
+// We reset the search box
 // And restore the display value of our list items
 form.firstElementChild.addEventListener("focus", (e) => {
     
