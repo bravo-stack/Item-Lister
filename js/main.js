@@ -4,7 +4,7 @@ const item = document.querySelector("#items")
 const filter = document.querySelector("#filter")
 
 
-// Form Events
+// FORM EVENT
 // adds a new list item to the item list 'UL' when ever a user submits a new value
 form.addEventListener("submit", (e) => {
 
@@ -65,7 +65,7 @@ form.addEventListener("submit", (e) => {
 })
 
 
-// Delete button event
+// DELETE BUTTON EVENT
 // We check if the target's classname matches that which we've assigned to the deletebtn
 // If it's a match, we remove, dynamically, it's parentElement
 item.addEventListener("click", (e) => {
@@ -74,7 +74,7 @@ item.addEventListener("click", (e) => {
     }
 })
 
-// Filter Event
+// FILTER EVENT
 filter.addEventListener("keyup", (e) => {
 
     // get filter/search text, convert to lowercase
@@ -104,7 +104,7 @@ filter.addEventListener("keyup", (e) => {
 })
 
 
-// Input field, focus event
+// INPUT FIELD, FOCUS EVENT
 // whenever the user focuses on the input field
 // We reset the search box
 // And restore the display value of our list items
