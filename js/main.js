@@ -97,7 +97,7 @@ filter.addEventListener("keyup", (e) => {
             item.style.display = "flex"
         } else {
 
-            // else, set display to flex
+            // else set display to flex
             item.style.display = "none"
         }
     })
