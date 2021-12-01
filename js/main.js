@@ -121,3 +121,18 @@ form.firstElementChild.addEventListener("focus", (e) => {
         i.style.display = "flex"
     })
 })
+
+
+// ADD OUR NEWLY CREATED CLASS TO THE DELETE AND THE SUBMIT BUTTON
+const submitBtn = form.querySelector("input[type=submit]")
+const delBtn = item.querySelectorAll("button")
+
+// add the class to the submitBtn
+submitBtn.classList.add("cursor")
+
+//add class also, to our delete buttons
+delBtn.forEach((e) => e.classList.add("cursor"))
+
+
+
+// SIGNS OUT!!!!!!!!@!@
