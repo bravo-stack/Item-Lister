@@ -45,7 +45,7 @@ input[type="search"] {
     background-color: white;
     border-radius: 2em;
     margin-top: 10px;
-    box-shadow: 5px 5px 8px 3px #ccc;
+    box-shadow: 4px 4px 8px 3px #ccc;
 }
 
 .title {
